@@ -24,8 +24,8 @@ if(isset($_GET['p'])){
             include '../template/liens.php';
             break;
         default:
-            include 'page-404.php';
+            include '../template/page-404.php';
     }
 }else{
-    include 'page-404.php';
+    include '../template/page-404.php';
 }

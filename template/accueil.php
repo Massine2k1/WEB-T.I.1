@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    include 'inc/menu.php';
+    ?>
     <h1>Bienvenue sur notre site consacré à Berlin</h1>
     <p>Berlin est la capitale et la plus grande ville d'Allemagne. Institutionnellement, c’est une ville-État nommée Land de Berlin.
 
