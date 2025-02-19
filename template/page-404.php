@@ -13,5 +13,7 @@
 <?php
     include 'inc/menu.php';
     ?>
+    <h1 class="title-main">ERROR 404</h1>
+    <main class="body-main"></main>
 </body>
 </html>

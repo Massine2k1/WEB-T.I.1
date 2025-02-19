@@ -39,6 +39,8 @@ body{
     background-color: #ccc;
     border: 2px solid black;
     border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -53,11 +55,15 @@ body{
 .liste li{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding: 0 75px;
 }
 
 .liste li a{
     text-decoration: none;
-    padding: 0 75px;
+    height: 100%;
+    width: 100%;
+    /* padding: 0 75px; */
     padding: 0;
     margin: 0;
     color: black;
@@ -68,3 +74,39 @@ body{
     font-weight: bolder;
 }
 
+.blason-berlin{
+    display: flex;
+    justify-content: center;
+}
+
+.title-main{
+    text-align: center;
+    font-style: italic;
+    background-color: #A90331;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.body-main{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.body-main p,
+.body-main ul,
+.body-main ul li {
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+.galerie{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 20px auto;
+}

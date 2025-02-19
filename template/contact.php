@@ -13,6 +13,7 @@
 <?php
     include 'inc/menu.php';
     ?>
+    <h1 class="title-main">Contact</h1>
     
 </body>
 </html>
