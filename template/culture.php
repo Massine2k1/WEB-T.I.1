@@ -27,7 +27,7 @@ Bien que la population diminue et que le taux de chômage soit élevé, beaucoup
 
 <h2>Musées</h2>
 
-<   <ul>
+    <ul>
         <li>Le musée juif</li>
         <li>Le musée des Technologies à Kreuzberg</li>
         <li>La Neue Nationalgalerie (Nouvelle Galerie Nationale), une des dernières constructions de Ludwig Mies van der Rohe</li>

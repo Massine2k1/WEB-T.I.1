@@ -14,6 +14,9 @@
     include 'inc/menu.php';
     ?>
     <h1 class="title-main">ERROR 404</h1>
-    <main class="body-main"></main>
+    <main class="body-main">
+        
+        <img src="img/404.jpg" alt="404" class="error">
+    </main>
 </body>
 </html>

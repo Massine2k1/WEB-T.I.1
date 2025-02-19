@@ -2,7 +2,7 @@
 
 if(isset($_GET['p'])){
     switch ($_GET['p']){
-        case 'accueil':
+        case './':
             include '../template/accueil.php';
             break;
         case 'contact':
@@ -27,5 +27,5 @@ if(isset($_GET['p'])){
             include '../template/page-404.php';
     }
 }else{
-    include '../template/page-404.php';
+    include '../template/accueil.php';
 }

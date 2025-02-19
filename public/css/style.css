@@ -44,18 +44,15 @@ body{
 }
 
 
-
-
 .liste{
     display:flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .liste li{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    
     padding: 0 75px;
 }
 
@@ -77,6 +74,7 @@ body{
 .blason-berlin{
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
 .title-main{
@@ -85,6 +83,12 @@ body{
     background-color: #A90331;
     color: white;
     border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-main{
@@ -101,12 +105,80 @@ body{
 .body-main ul li {
     margin: 20px 30px;
     font-size: 20px;
+    list-style-type: none;
 }
 
 .galerie{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         width: 90%;
-        margin: 20px auto;
+        padding: 20px;
+        gap: 20px;
+}
+
+.galerie img{
+        width: 100%;
+        max-width: 480px;
+        border: 2px solid black;
+}
+
+.carte{
+    margin: 20px auto;
+}
+
+a:hover{
+    background-color: #A90331;
+}
+
+.error{
+
+}
+
+.contact-form {
+    width: 620px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    height: 30px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contact-form textarea {
+    height: 80px;
+}
+
+.contact{
+    margin-top: 20px;
+}
+.contact-form button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: black;
+    color: white;
 }
